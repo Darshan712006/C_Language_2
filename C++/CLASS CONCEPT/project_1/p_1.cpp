@@ -1,4 +1,4 @@
-#include <iostream>
+                #include <iostream>
 using namespace std;
 #include <string.h>
 
@@ -20,7 +20,9 @@ class time{
         time tc;
         int choice;
 
-        cout << "CHOICE YOUR OPTION: 1 or 2 \n CONVERT SEC. TO HH:MM:SS: 1 \n CONVERT HH:MM:SS TO SEC. : 2";
+        cout << "CHOICE YOUR OPTION: 1 or 2" << endl;
+        cout << "CONVERT SEC. TO HH:MM:SS: 1" << endl;
+        cout << "CONVERT HH:MM:SS TO SEC. : 2" << endl;
         cin >> choice;
 
         if(choice == 1){
